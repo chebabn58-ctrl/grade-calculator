@@ -1,3 +1,4 @@
+
 import pytest
 from calculator import calculate_average, is_passing
 
@@ -14,4 +15,4 @@ def test_is_passing():
 def test_empty_grades():
     with pytest.raises(ValueError):
         calculate_average([])
-        
+
