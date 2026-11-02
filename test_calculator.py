@@ -19,8 +19,8 @@ def test_empty_grades():
 
 def test_passing_grade_is_exactly_ten():
     assert is_passing(10) is True
-    
-    
+
+
 def test_grade_categories():
     assert get_grade_category(17) == "Excellent"
     assert get_grade_category(13) == "Good"
