@@ -15,5 +15,6 @@ def test_empty_grades():
     with pytest.raises(ValueError):
         calculate_average([])
 
+
 def test_passing_grade_is_exactly_ten():
     assert is_passing(10) is True
