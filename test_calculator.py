@@ -14,3 +14,4 @@ def test_is_passing():
 def test_empty_grades():
     with pytest.raises(ValueError):
         calculate_average([])
+        
